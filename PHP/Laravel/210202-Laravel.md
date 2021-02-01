@@ -48,7 +48,7 @@
 > 모든 상속받은 View들이 동일한 header와 footer를 쓴다면 이곳에서 @include가 좋을 것이다. 이렇게하면 자식들 View에서 별도로 선언할 필요가 없다.  
 > 하지만 각각 View마다 다른 header와 footer를 구성해야한다면 @yield로 선언하여 각 자식 View들에서 
 > 직접 @section으로 해당하는 파일을 @include 해온다던지의 수정이 필요할 것이다.
-- {{ $변수 }} : Laravel의 Route나 Controller에서 전달해준 변수를 사용한다. {{ $변수 }} = <?=$변수?> = <?php echo $변수; ?> 와 같다.
+- {{ $변수 }} : Laravel의 Route나 Controller에서 전달해준 변수를 사용한다. {{ $변수 }} = \<?=$변수?> = <?php echo $변수; ?> 와 같다.
 > 세부적으로는 다르다.
 
 <br></br>
