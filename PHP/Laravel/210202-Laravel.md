@@ -24,7 +24,7 @@
         @show
 
         <div class="container">
-            @yield('content')
+            @yield('content')         `
         </div>
         <!-- resources/views/layouts/footer.blade.php -->
         @include('layouts.footer')
@@ -121,4 +121,6 @@ PHP 코드를 그대로 삽입할 수 있기 때문에 다음과 같은 형태�
 - @verbatime ~ @endverbatim  
   위의 @{{}} 와 사용 용도는 동일합니다. Blade에서 해당 코드는 처리하지 않습니다.
 - {{-- 주석 --}}  
-  Blade의 주석입니다. html로 반환되지 않기 때문에 브라우저의 개발툴로 (ex: 크롬의 devtools) 볼 수 없습니다. 
+  Blade의 주석입니다. html로 반환되지 않기 때문에 브라우저의 개발툴로 (ex: 크롬의 devtools) 볼 수 없습니다.
+- once
+  
