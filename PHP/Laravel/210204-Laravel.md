@@ -36,5 +36,3 @@ PHPUnit 테스트를 위한 폴더.
 ###Vendor
 ***
 composer 의존성 폴더.
-##App
-###
