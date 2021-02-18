@@ -1,11 +1,8 @@
 # Docker로 Oracle XE 설치
-***
 Ubuntu Server 환경에서 Oracle XE를 설치하려니 RedHat 기반이라 패키지부터 Debian용으로 바꾸는 것부터 별별 설정을 해야하는 등  
 삽질만 하다 실패해서 그냥 간단하게 Docker로 설치해보기로 했다.  
 생각해보면 Docker로 CentOS 깔아서 그 위에 Oracle XE를 설치하는 방법도 있겠으나 삽질의 여파로 그것조차 귀찮아지기 시작했다.
-***
 ## 1. 이미지 설치
-***
 먼저 Docker 이미지를 찾아보자
 ```
 docker search oracle-xe
@@ -19,7 +16,6 @@ docker pull oracleinanutshell/oracle-xe-11g
 ```
 
 ## 2. 컨테이너 실행 
-***
 이제 컨테이너를 실행해보자.
 
 ```
