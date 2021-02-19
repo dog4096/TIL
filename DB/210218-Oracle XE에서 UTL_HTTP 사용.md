@@ -54,6 +54,7 @@ SELECT * FROM DBA_NETWORK_ACLS
 쿼리를 실행해보면 HOST와 ACL이 지정된걸 확인할 수 있다.
 
 ## 2. Procedure 작성
+
 ```oraclesqlplus
 create procedure TEST_HTTP_CALL IS
     REQ UTL_HTTP.req;
@@ -67,3 +68,10 @@ BEGIN
 END TEST_HTTP_CALL;
 /
 ```
+다시 권한을 부여한 계정으로 돌아와서 해당 Procedure를 만든 후 실행해보자.
+> begin
+>   TEST_HTTP_CALL;
+> end;
+> [2021-02-18 15:04:42] completed in 945 ms
+
+실행이 잘 되었다.
