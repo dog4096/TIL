@@ -27,6 +27,7 @@
 
 ![](assets/_images/a3438a91.png)  
     IntelliJ 사용 중이라면 이런식으로 해서 Debug 버튼을 누르면 편하다.
+
 ---
  2. 초기구동 Function(main)에서 run 이전에
 ```java
