@@ -14,7 +14,7 @@
  - 그 다음 이를 불러들이기 위한 Configuration 클래스를 작성한다.
     ```java
     @Configuration
-    @Profile("커스텀프로파일명")
+    @Profile("환경이름")
     @PropertySource(value="classpath:asdf.properties")
     public class ConfigClass {
     }
