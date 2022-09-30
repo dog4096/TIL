@@ -1,4 +1,4 @@
-# Spring Boot 환경 나누기
+# Spring Boot 환경(Profile) 나누기
 ## 1. 설정 구분
  기본적으로 Spring 프로젝트를 생성해보면 application.properties가 존재하고 실행 될때 application.properties를 먼저 불러들인다.
 #### 1. 기본 포맷 파일이름(Properties)으로 구분
